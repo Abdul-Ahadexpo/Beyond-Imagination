@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beyond Imagination</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Beyond Imagination</h1>
+  </header>
+
+  <div class="container">
+    <!-- Video Section -->
+    <div class="file-section">
+      <h2>Intro and Outro</h2>
+      <div class="file-item">
+        <div class="file-preview">
+          <video class="Embrace" controls width="100%" height="500px">
+            <source src="/君の腕の中で(In Your Embrace).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <a href="/君の腕の中で(In Your Embrace).mp4" download onclick="confirmDownload('君の腕の中で(In Your Embrace)')">Download
+            君の腕の中で(In Your Embrace)</a>
+        </div>
+      </div>
+      <div class="file-item">
+        <div class="file-preview">
+          <video controls>
+            <source src="/星の瞳 (starry night sky).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <a href="/星の瞳 (starry night sky).mp4" download onclick="confirmDownload('星の瞳 (starry night sky)')">Download
+            星の瞳 (starry night sky)</a>
+        </div>
+      </div>
+      <!-- Add more video files as needed -->
+    </div>
+
+    <!-- Audio Section -->
+    <div class="file-section">
+      <h2>Audio</h2>
+      <div class="file-item">
+        <div class="file-preview">
+          <audio controls>
+            <source src="/君の瞳の星 (Kimi no hitomi no hoshi) (Stars in Your Eyes).mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+          </audio>
+          <a href="/君の瞳の星 (Kimi no hitomi no hoshi) (Stars in Your Eyes).mp3" download
+            onclick="confirmDownload('君の瞳の星 (Kimi no hitomi no hoshi) Audio')">Download 君の瞳の星 (Kimi no hitomi no hoshi)
+            Audio</a>
+        </div>
+      </div>
+      <div class="file-item">
+        <div class="file-preview">
+          <audio controls>
+            <source src="/君の腕の中で(In Your Embrace).mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+          </audio>
+          <a href="/君の腕の中で(In Your Embrace).mp3" download
+            onclick="confirmDownload('君の腕の中で(In Your Embrace) Audio')">Download 君の腕の中で(In Your Embrace) Audio</a>
+        </div>
+      </div>
+      <!-- Add more audio files as needed -->
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
